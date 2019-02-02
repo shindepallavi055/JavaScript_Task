@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Demo new Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div  class="container-fluid">
+      <div class="row mainDiv span8">
+        <div class="col-sm-3">
+          <div class="nav-side-menu">
+            <div class="brand"><span class="pages-css">Pages</span>
+              <div id="resultCnt"></div>
+              <img id="addMenu" src="images/plus.png" class="plus-right hidden-xs">
+            </div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content">Menu</i>
+            <div class="menu-list">
+              <ul id="menu-content" class="menu-content collapse out">
+                <li class="ui-state-default active">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Shantanu lara
+                  </a>
+                  <div class="right-images">
+                     <input type="checkbox" name="menuList" value=""> 
+                    <img src="images/delete.png" class="deleteBtn"></div>                      
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> rakesh shinde
+                  </a>
+                  <div class="right-images">
+                    <input type="checkbox" name="menuList" value=""> 
+                    <img src="images/delete.png" class="deleteBtn"></div> 
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Jimmi Jecob
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Marry Jecob
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                      
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Volvarin shaha
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> sanddy datta
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>  
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> lorem shinde
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Abhishek chvan
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Denny bansali
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Dello Marry
+                  </a> 
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> Sam Shaha
+                  </a>
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> villam pande
+                  </a> 
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> prasad shinde
+                  </a> 
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>                       
+                </li>
+
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> paramid dataa
+                  </a> 
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn" onclick="deleteBtn();"></div>                      
+                </li>
+				
+                <li class="ui-state-default">
+                  <a href="#">
+                    <img src="images/li_img.png" class="menu-image"> bos devid
+                  </a> 
+                  <div class="right-images"><input type="checkbox" name="menuList" value="">
+                    <img src="images/delete.png" class="deleteBtn"></div>       
+                </li>
+              </ul>
+              <div class="Filter">  
+              <label> Filter : </label>  
+               <div class="input-group"> 
+                <input type="text" id="myInput" class="form-control mystyle" onkeyup="myFunction()" placeholder="Search" title="Type in a name" >
+                 <span class="input-group-addon">
+                  <img src="images/delete.png" class="searchClear" onclick="clearSearch()">
+                </span>
+              </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9"> 
+		    <div class="row">
+			  <div class="">
+			  <ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+				<li><a data-toggle="tab" href="#menu1">About</a></li>
+			  </ul>
+			  <div class="tab-content">
+				<div id="home" class="tab-pane fade in active">
+				  <h3>HOME</h3>
+				  <p>Home Data</p>
+				</div>
+				<div id="menu1" class="tab-pane fade">
+				  <h3>Menu</h3>
+				  <p>Menus.</p>
+				</div>
+			  </div>
+			</div>
+			</div>
+      </div>
+    </div>
+  </div>  
+  </div> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="common.js"></script>
+</body>
+</html>
+
+
+
+              <script>
+
+                function clearSearch(){
+                     document.getElementById('myInput').value ='';
+                     document.clear();
+                     myFunction();
+                }
+    
+              function myFunction() {
+                var input, filter, ul, li, a, i, txtValue=0;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("menu-content");
+                li = ul.getElementsByTagName("li");
+               
+                for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                // txtValue = a.textContent || a.innerText;
+               
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                  txtValue++;
+                } else {
+                  li[i].style.display = "none";
+                }
+                }
+              
+              if(input.value.length>0)
+              {
+
+              document.getElementById("resultCnt").innerHTML ="<b>"+ txtValue + " "+" Reords </b> ";
+              }
+              else{
+                document.getElementById("resultCnt").innerHTML =" ";
+              }
+            }
+
+                  $( 'ul.menu-content li' ).on( 'click', function() {
+                  $( this ).parent().find( 'li.active' ).removeClass( 'active' );
+                  $( this ).addClass( 'active' );
+                });
+              </script>
